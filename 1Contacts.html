@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+    <header> 
+        <div class="header-logo"> 
+            <a href="1main.html">
+                <div class="w3-content w3-section" style="max-width:500px">
+                    <img class="mySlides" src="logo.png" style="width:100%">
+                    <img class="mySlides" src="logo2.png" style="width:100%">
+                    <img class="mySlides" src="logo3.png" style="width:100%">
+                </div>
+            
+                <script>
+                    var myIndex = 0;
+                    carousel();
+            
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";  
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {myIndex = 1}    
+                        x[myIndex-1].style.display = "block";  
+                        setTimeout(carousel, 1000); 
+                        }
+                </script>
+            </a>
+        </div>
+        <div class="header-nav">
+            <ul>
+                <a href="1Designs.html"><li>Designs</li></a>
+                <a href="1Contacts.html"><li>Contact</li></a>
+                <a href="1Order.html"><li>Order</li></a>
+            </ul>
+        </div>
+    </header>
+
+    <contact>
+        <div class="contact-title">
+            <h1 class="square">
+                Have fun! thats all that matters <3
+
+            </h1>
+        </div>
+        <div class="contact-bg">
+            <p class="contact-text">
+                You're here! seems like you're interested
+                in my skills, feel free to reach me out.
+            </p>
+        </div>
+        
+        <div>
+            <div class="contact-nav">
+                <a href="https://www.youtube.com/watch?v=A9RWSdp4GTE"target="_blank" >
+                    <li>
+                        Dribble
+                    </li>
+                </a>
+                <a href="https://www.youtube.com/watch?v=Hvw2cNQUuUc"target="_blank">
+                    <li>
+                        Linkedin
+                    </li>
+                </a>
+                <a href="https://www.youtube.com/watch?v=5jKZ9KGtee0"target="_blank">
+                    <li>
+                        Youtube
+                    </li>
+                </a>
+            </div>
+        </div>
+    </contact>
+
+    <footer>
+        <div class="footer-logo">
+            <p>Ⓒ 2023 YOLAN GACOR</p>
+        </div>
+        <div class="footer-nav">
+            <a href="mailto: andiyolandasagita@gmail.com"target="_blank">
+                <li>@andiyolandasagita.gmail.com</li></a>
+                <a href="https://wa.me/+628115530473"target="_blank">
+                <li>+62 8115 5304 73</li></a>
+                <a href="https://www.instagram.com/yxlndc/"target="_blank">
+                <li>@yxlndc</li> </a>
+        </div>
+    </footer>
+</body>

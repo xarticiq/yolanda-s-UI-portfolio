@@ -1,0 +1,652 @@
+/*SAKIT PALAKU SAKITTTT */
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.square{
+    padding: 40px 40px;
+    margin-left: 300px;
+    margin-right:  300px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    font-weight: bold;
+    cursor: grabbing;
+    color: white;
+    text-transform: uppercase;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border-radius: 25px;
+    color: pink;
+}
+
+/*header*/
+header{
+    background-color: #1D2B52;
+    color : white;
+    height: 90px;
+}
+
+.header-logo{
+    float:left;
+    padding: 10px 40px;
+}
+.header-logo:hover{
+    rotate: 10deg;/*LUCU BANGETHJBSUBDS*/
+    cursor: -webkit-grabbing; cursor: grab;
+}
+.header-logo a:hover{
+    cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.header-nav ul li{
+    list-style: none;
+    float: left;
+    padding: 35px 20px;
+    position: relative;
+}
+
+.header-nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FEE0E0;
+}
+/*main*/
+main{
+    color: #ffff;
+}
+.main-container{
+    padding-bottom: 150px;
+}
+.main-container h1{
+    font-size: 100px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.main-container h1:hover{
+    color: pink;
+    cursor:default;
+}
+
+.main-container h2{
+    padding-left: 100px;
+    font-size: 40px;
+    
+}
+.main-container span{
+    color : #FEE0E0;
+}
+
+.main-container-image{
+    size: 100%;
+    height: 809px;
+    position: relative;
+    background-image: url('main\ final.png');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+}
+
+/*
+.main-contents button span{
+    background: #FEE0E0;
+    height: 100%;
+    width: 0;
+    bcontents-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.9s;
+}*/
+.main img{
+    padding-top: 100px;
+}
+button{
+    width: 200px;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 40px 180px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    border: 2px solid #FEE0E0;
+    cursor: pointer;
+    position: relative;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+
+}
+
+button:hover{
+    color: pink;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 210px;
+    margin: 40px 175px;
+
+}
+
+/*contents*/
+
+.contents-image{
+    height: 500px;
+    background-image: URL('main\ about\ me.png');
+    size: 100%;;
+    height: 800px;
+    position: relative;
+    background-size: cover;    
+}
+.contents{
+    color: pink;
+    padding-top: 100px;
+    text-align: center;
+}
+.contents .block2{
+    margin-left: 800px;
+}
+.contents .core-software{
+    margin-right: 800px;
+}
+
+.contents h3{
+    font-size: 60px;
+    margin-top: 100px;
+    text-align: center;
+    color: #1D2B52;
+    padding-top: 100px;
+}
+  
+.contents-image {
+    display: flex;
+}
+  
+  /* Clearfix (clear floats) */
+.contents-item {
+    flex: 33.3%;
+    padding: 5px;
+}
+/*
+.contents-item{
+    margin-top: -40px;
+    padding-left: 10px;
+    float: left;
+    margin-right: 100px;
+    margin-left: -70px;
+    align-items: center;
+}
+
+.contents-item p{
+    margin-left: -8px;
+    text-align: center;
+    align-items: center;
+}
+
+/*APASIH GAMAU RATA OSAOUASHUIBASD*/
+ /*
+BORDER FOTO
+.contents-image{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: black;
+}
+
+.contents-image img{
+    padding-top: 230px;
+    padding-left: 70px;
+    width: 100px;
+}
+
+.contents-item p{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 70px;
+    color: white;
+    font-family: monospace;
+}*/
+
+/*designs*/
+
+.designs-square{
+    background-color: #1D2B52;
+    padding: 40px 40px;
+    margin: 0;
+    border:dashed 2px white;
+}
+
+.designs-square-left{
+    background-color: #1D2B52;
+    padding: 70px 100px;
+    margin: 0px 0px;
+    text-align: justify;
+
+}
+
+.designs-square-left h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+
+.designs-square-left h2{
+    font-size: 15px;
+    color: #868686;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.designs-square-left h3{
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.designs-square-left p{
+    text-indent: 20px;
+    padding: 10px 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+
+.designs-square-right img{
+    margin-top: -90px;
+    margin-left: 290px;
+    padding-bottom: 200px;
+}
+
+.designs-square-coming{
+    background-image: url(Clothing.png);
+    padding: 100px 40px;
+    margin: 0px 0px;
+    text-align: justify;
+    
+}
+
+.designs-square-coming h1{
+    font-size: 80px;
+    text-align: center;
+    color:#FEE0E0 ;
+}
+
+/*CONTACT
+udah cape ya allah*/
+
+.contact-bg{
+    background-color: #1D2B52;
+}
+
+.contact-title{
+    background-color: #1D2B52;
+}
+.contact-title h1{
+    background-color: #1D2B52;
+    font-size: 80px;
+    padding-top: 190px;
+    text-align: center;
+    color:#FEE0E0 ;
+    text-shadow: 2px 2px #ffffff
+}
+
+.contact-nav{
+    padding-bottom: 350px;
+    background-color: #1D2B52;
+    padding-left: 410px;
+    text-align: left;
+    padding-top: 100px;
+
+}
+
+.contact-pad{
+    padding-right: 20px;
+}
+.contact-nav a li{
+    background-color: #1D2B52;
+    list-style: none;
+    padding: 60px 35px;
+    float:left;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+/*
+.contact-nav a li p{
+    color:#FEE0E0;
+    font-size: 13px;
+    padding-inline: 10px;
+    font-weight: lighter;
+    padding-top: 10px;
+    text-transform: lowercase;
+    text-indent: -10px;
+    white-space: nowrap; 
+    width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}*/
+
+.contact-nav a li:hover{
+    color: #1D2B52;
+    background-color: white;
+}
+
+.contact-text{
+    background-color: #1D2B52;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0px 400px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+/*order*/
+.order-bg{
+    background-color:#1D2B52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+
+.content p{
+    padding-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1D2B52;
+    padding-bottom: 20px;
+}
+.content span{
+    color: #1D2B52;
+}
+.order{
+    max-width: 900px;
+    width: 100%;
+    background-color: #fff;
+    padding: 50px 70px 50px 50px ;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    border:dashed 4px pink;
+}
+.order .title{
+    font-size: 45px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    color: #1D2B52;
+}
+.order-bg .order .sub-title p{
+    text-align: center;
+    padding: 10px 10px;
+    color: #6a78a1;
+}
+/*
+.order .title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}*/
+/*next*/
+  
+form .checkbox-sq{
+    float: left;
+}
+form .price-details{
+    margin: auto;
+}
+form .checkbox-sq .checkbox{ 
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+form .checkbox-sq .checkbox label{
+    display: flex;
+    cursor: pointer;
+
+    align-items: center;
+}
+
+/*
+form .checkbox-sq .checkbox label input{
+    vertical-align: middle;
+}
+form .checkbox-sq .checkbox label span{
+    vertical-align: middle;
+}*/
+form input[type="checkbox"]{
+    appearance: none;
+    font: inherit;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #1D2B52;
+    border-radius: 5px;
+    margin: 10px 10px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+} 
+
+form input[type="checkbox"]::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    transform: scale(0);
+    transition: 300ms transform ease-in-out;
+    background-color:#1D2B52;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+form input[type="checkbox"]:checked::before{
+    transform: scale(1);
+    border-radius: 5px;
+    outline: solid 5px rgb(255, 255, 255);
+    cursor: pointer;
+}
+form .price{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+form .price label{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+form input[type="radio"]{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #1D2B52;
+    border-radius: 10px;
+    margin: 10px 10px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+form input[type="radio"]::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: 300ms transform ease-in-out;
+    background-color:#1D2B52;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form input[type="radio"]:checked::before{
+    transform: scale(1);
+    border-radius: 10px;
+    outline: solid 5px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(50% - 20px);
+}
+
+form .input-box span.details{
+    padding-top: 20px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1D2B52;
+    margin-bottom: 20px;
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid rgb(207, 202, 255);
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color:#1D2B52;
+}
+textarea{
+    outline: none;
+    resize: none;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 15px 0px 0 15px;
+    border: 1px solid rgb(207, 202, 255);
+    border-bottom-width: 2px;
+    transition: all 0.5s ease;
+}
+
+.order-details .order-input textarea:focus,
+.order-details .order-input textarea:valid{
+    border-color:#1D2B52;
+}
+form .order-details{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+form .order-details .order-input p.details{
+    display: block;
+    font-weight: 500;
+    margin: 10px 5px;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    color:#ffffff;
+    padding: 7px 11px 7px 11px;
+    display: inline-block;
+    background-color:#1D2B52;
+    border-radius: 5px;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color:#08163b;
+    color: white;
+    padding: 8px 12px 8px 12px;
+}
+.inputfile + label {
+	cursor: pointer;
+}
+
+form .button{
+    height: 45px;
+    margin: 35px 0;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #1D2B52;
+    text-transform: uppercase;
+}
+
+form .button input:hover{
+    background: linear-gradient(-90deg,#000000,#1D2B52, #000000);
+    height: 46px;
+    }
+
+/*footer*/
+footer{
+    background-color: #1D2B52;
+    color : white;
+    height: 30px;
+    padding: 40px 40px;
+}
+
+.footer-logo{
+    float:left;
+    font: 30px;
+}
+
+.footer-nav li{
+    padding: 10px 20px;  
+    float: right;  
+    list-style: none;
+    position: relative;
+    text-transform: lowercase;
+}
+
+.footer-logo p{
+    padding-top: 10px;
+    font-size: 13px;
+    color: gray;
+}

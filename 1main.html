@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header> 
+        <div class="header-logo"> 
+            <a href="1main.html"> 
+                <div class="w3-content w3-section" style="max-width:500px">
+                    <img class="kucing" src="logo.png" style="width:100%">
+                    <img class="kucing" src="logo2.png" style="width:100%">
+                    <img class="kucing" src="logo3.png" style="width:100%">
+                </div>
+            
+                <script> //ini javascript ya? jujur i ngikutin tutor ngehe ga ngerti
+                    var myIndex = 0;
+                    carousel();
+            
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("kucing");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";  
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {myIndex = 1}    
+                        x[myIndex-1].style.display = "block";  
+                        setTimeout(carousel, 500); 
+                        }
+                </script>
+            </a>
+        </div>
+        <div class="header-nav">
+            <ul>
+                <a href="1Designs.html"><li>Designs</li></a>
+                <a href="1Contacts.html"><li>Contact</li></a>
+                <a href="1Order.html"><li>Order</li></a>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <div class="main-container">
+            <div class="main-container-image"> 
+                <div>
+                    <h1>Hi!<span> :D</span></h1>
+                    <h2>Yolanda's UI Portfolio</h2>
+                    <div>
+                        <a href="1Order.html">
+                            <button type="button" >
+                                Order Now
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block2">
+            <img src="block2.png" alt="" >
+        </div>
+        <div class="contents">
+            <div class="block2">
+                <img src="block2.png" alt="" >
+            </div>
+            
+            <div class="core-software">
+                <img src="block.png" alt="" >
+                <h3>
+                    Core Software
+                </h3>
+            </div>
+            <div class="contents-image">
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <p>Ⓒ 2023 YOLAN GACOR</p>
+        </div>
+        <div class="footer-nav">
+            <a href="mailto: andiyolandasagita@gmail.com"target="_blank">
+            <li>@andiyolandasagita.gmail.com</li></a>
+            <a href="https://wa.me/+628115530473"target="_blank">
+            <li>+62 8115 5304 73</li></a>
+            <a href="https://www.instagram.com/yxlndc/"target="_blank">
+            <li>@yxlndc</li> </a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header> 
+        <div class="header-logo"> 
+            <a href="1main.html"> 
+                <div class="w3-content w3-section" style="max-width:500px">
+                    <img class="kucing" src="logo.png" style="width:100%">
+                    <img class="kucing" src="logo2.png" style="width:100%">
+                    <img class="kucing" src="logo3.png" style="width:100%">
+                </div>
+            
+                <script> //ini javascript ya? jujur i ngikutin tutor ngehe ga ngerti
+                    var myIndex = 0;
+                    carousel();
+            
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("kucing");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";  
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {myIndex = 1}    
+                        x[myIndex-1].style.display = "block";  
+                        setTimeout(carousel, 500); 
+                        }
+                </script>
+            </a>
+        </div>
+        <div class="header-nav">
+            <ul>
+                <a href="1Designs.html"><li>Designs</li></a>
+                <a href="1Contacts.html"><li>Contact</li></a>
+                <a href="1Order.html"><li>Order</li></a>
+            </ul>
+        </div>
+    </header>
+    
+    <designs>
+        <div class="designs-square">
+            <div class="designs-square-left">
+                <div>
+                    <h1>
+                        Zooper App
+                    </h1>
+                    <h2>
+                        12/29/2023
+                    </h2>
+                </div>
+
+                <div>
+                    <h3>
+                        User Interface
+                    </h3>
+                </div>
+
+                <div>
+                    <p>
+                        Iphone 14 393x852 px
+                    </p>
+                </div>
+                <div>
+                    <h3>
+                        Application Background
+                    </h3>
+                </div>
+                <div>
+                    <p>
+                        "The letter added: ‘We need the Zoo Animal Fund criteria changed to be similar to the Cultural Recovery Fund, so that Britain's outstanding and carefully managed zoos can also be supported as institutions, accessing the funds we so desperately need to support the welfare of the species we hold and to continue with our global conservation work.‘
+
+                        A BVA survey, the results of which were published in October 2020, revealed that 62 per cent of vets were ‘very or quite concerned’ about wildlife and zoo animal health and welfare during the pandemic – making this one of their top concerns."<i>- National Library of Medicine, Josh Loeb (Zoos struggling to access Covid‐19 support).</i>
+                    </p>
+                    <p>
+                        Awal mula ide dari desain aplikasi ini, 
+                        dimulai saat viralnya berita mengenai 
+                        kekurangan dana dari beberapa kebun binatang yang berada
+                        dikarenakan pandemi. Sebagai pencinta hewan hal itu justru membuat saya tertarik
+                        untuk membantu, dari sinilah saya mendapatkan hambatan pertama saya, yaitu
+                        belum adanya platform untuk membantu kebun binatang
+                        tersebut. Oleh karena itu dibuatlah desain UI ini yang bertujuan
+                        dalam mempermudah pengguna yang tertarik untuk mendonasikan sejumlah
+                        uang untuk
+                        kebun binatang di mana saja.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="designs-square-right">
+            <div>
+                <img src="Zoo app.png" alt="zoo app" style="width: 50%;">
+            </div>
+        </div>
+
+        <div class="designs-square-coming">
+            <div>
+                <h1>Coming Soon Coming Soon</h1>
+                <h1>Coming Soon Coming Soon</h1>
+                <h1>Coming Soon Coming Soon</h1>
+                <h1>Coming Soon Coming Soon</h1>
+                <h1>Coming Soon Coming Soon</h1>
+                <h1>Coming Soon Coming Soon</h1>
+            </div>
+        </div>
+    </designs>
+
+    <footer>
+        <div class="footer-logo">
+            <p>Ⓒ 2023 YOLAN GACOR</p>
+        </div>
+        <div class="footer-nav">
+            <li>@andiyolandasagita.gmail.com</li>
+            <a href="https://wa.me/+628115530473">
+            <li>+62 8115 5304 73</li></a>
+            <a href="https://www.instagram.com/yxlndc/">
+            <li>@yxlndc</li> </a>
+        </div>
+    </footer>
+</body>
